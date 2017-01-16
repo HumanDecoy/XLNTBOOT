@@ -119,7 +119,7 @@ body {
 .centernav{
   left:16.66%;
 }
-@media (min-width: 768px){
+@media (max-width: 1200px){
 .centernav{
   left:0%;
 }
