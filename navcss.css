@@ -97,9 +97,10 @@ body {
 .liBoot{
   color:white;
   margin:0 auto;
-  padding-left:50%;
   padding-top:1.2rem;
   list-style:none;
+  text-decoration: none;
+  text-align:center;
 
 }
 #logoMenu{
