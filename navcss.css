@@ -126,3 +126,13 @@ body {
 }
 }
 
+.navbar-inverse .navbar-toggle .icon-bar{
+  background-color: #f26522;
+}
+.navbar-toggle .icon-bar{
+  height:5px;
+  width:45px;
+}
+.navbar-toggle .icon-bar + .icon-bar {
+  margin-top:7px;
+}
