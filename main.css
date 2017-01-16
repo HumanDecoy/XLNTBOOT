@@ -4,3 +4,8 @@ body{
 #containercolor{
 	background-color: #f2f2f2;
 }
+.page-1 {
+  background-image: url("img/stockholm-sweden-winter-blur-lower.jpg");
+  height: 60rem;
+  padding: 0 0;
+}
