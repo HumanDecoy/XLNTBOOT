@@ -100,3 +100,9 @@ body {
         display:block !important;
     }
 }
+
+.liBoot{
+  color:white;
+  margin:0 auto;
+  padding-left:50%;
+}
