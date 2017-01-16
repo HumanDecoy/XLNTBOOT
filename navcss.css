@@ -99,10 +99,28 @@ body {
     .collapse.in{
         display:block !important;
     }
+
 }
 
 .liBoot{
   color:white;
   margin:0 auto;
   padding-left:50%;
+  padding-top:1.2rem;
+  list-style:none;
+
+}
+
+
+#logoMenu{
+  width:130px;
+  padding-bottom:;
+  vertical-align: middle;
+  margin:0.3em 0em 0.3em 0.3em;
+}
+
+#navXlnt{
+  position:fixed;
+  width: 100%;
+  z-index: 99;
 }

@@ -1,11 +1,28 @@
 body{
 	background-color: #2b2d42;
 }
+.col-lg-8, .col-sm-12, .col-xs-12{
+	padding-left: 0px;
+	padding-right: 0px;
+}
 #containercolor{
 	background-color: #f2f2f2;
 }
 .page-1 {
-  background-image: url("img/stockholm-sweden-winter-blur-lower.jpg");
-  height: 83rem;
-  padding: 0 0;
+  	background-image: url("img/stockholm-sweden-winter-blur-lower.jpg");
+  	height: 83rem;
+  	padding: 0 0;
+}
+.page-1-div{
+	position: relative;
+	top:5rem;
+	width: 80%;
+	height: 80%;
+  	background-color: rgba(0,0,0,0.3);
+  	margin: 0 auto;
+  	margin-top: 0rem;
+  	border: 1px solid #b5b5b5;
+}
+.page-1-title-h1{
+
 }
