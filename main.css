@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500');
+
 body{
 	background-color: #2b2d42;
 }
@@ -15,7 +17,7 @@ body{
 }
 .page-1-div{
 	position: relative;
-	top:5rem;
+	top:10rem;
 	width: 80%;
 	height: 80%;
   	background-color: rgba(0,0,0,0.3);
@@ -23,6 +25,29 @@ body{
   	margin-top: 0rem;
   	border: 1px solid #b5b5b5;
 }
-.page-1-title-h1{
-
+.page-1-title-h1 {
+  color: white;
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 2em;
+  text-align: center;
+  margin-top: 7rem;
+  padding: 0 0.3em 0 0.3em;
+}
+.orange-page-1 {
+  width: 6rem;
+  height: 0.2rem;
+  background-color: #f26522;
+  margin: 0 auto;
+  margin-top: 4rem;
+}
+.btn-page-1 {
+  padding: 6px 12px;
+  border: 2px solid #b5b5b5;
+  background-color: rgba(0,0,0,0.0);
+  font-size: 1em;
+  width: 17%;
+  margin: 0 auto;
+  color: white;
+  text-decoration: none;
 }
