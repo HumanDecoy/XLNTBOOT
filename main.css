@@ -46,6 +46,8 @@ body{
   border: 2px solid #b5b5b5;
   background-color: rgba(0,0,0,0.0);
   font-size: 1em;
+  width: 17%;
+  margin: 0 auto;
   color: white;
   text-decoration: none;
 }
