@@ -98,6 +98,7 @@ body {
   color:white;
   margin:0 auto;
   padding-top:1.2rem;
+  padding-bottom: 1.2rem;
   list-style:none;
   text-decoration: none;
   text-align:center;
@@ -129,3 +130,4 @@ body {
 .navbar-toggle .icon-bar + .icon-bar {
   margin-top:7px;
 }
+
