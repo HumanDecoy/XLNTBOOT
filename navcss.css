@@ -63,7 +63,7 @@ body {
     .navbar-left,.navbar-right {
         float: none !important;
     }
-    
+
     .navbar-toggle {
         display: block;
         border: none;
@@ -134,4 +134,25 @@ body {
 .navbar-toggle .icon-bar + .icon-bar {
   margin-top:7px;
 }
+
+
+
+a {
+  color:white;
+  text-decoration: none;}    
+
+a:visited {
+  color:white;
+  text-decoration: none;
+}  
+
+a:hover {
+  color:white;
+  text-decoration: none;
+} 
+
+a:active {
+  color:white;
+   text-decoration: none;
+}  
 
