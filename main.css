@@ -76,20 +76,36 @@ body{
   font-size: 2em;
   text-align: center;
   padding: 4rem 0.3em 0 0.3em;
+  margin: 0;
 }
 .orange-page-2 {
   width: 6rem;
   height: 0.2rem;
   background-color: #f26522;
   margin: 0 auto;
-  margin-top: 4rem;
+  margin-top: 2rem;
 }
+
+.page-2 img {
+  width: 100%;
+  margin: 2rem 0 0 0;
+  padding: 0 2em;
+}
+
+.page-2-p {
+  margin: 2rem 0 0 0;
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 0 1.5rem 0 1.5rem;
+}
+
 .btn-page-2 {
   padding: 6px 12px;
   border: 2px solid #b5b5b5;
   background-color: rgba(0,0,0,0.0);
   font-size: 1em;
-  width: 17%;
   margin: 0 auto;
   color: #000000;
   text-decoration: none;
