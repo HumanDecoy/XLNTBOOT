@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500');
 
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
 body{
 	background-color: #2b2d42;
 }
@@ -10,6 +16,9 @@ body{
 #containercolor{
 	background-color: #f2f2f2;
 }
+
+/*PAGE-1*/
+
 .page-1 {
   	background-image: url("img/stockholm-sweden-winter-blur-lower.jpg");
   	height: 83rem;
@@ -49,5 +58,39 @@ body{
   width: 17%;
   margin: 0 auto;
   color: white;
+  text-decoration: none;
+}
+
+/*PAGE-2*/
+
+.page-2 {
+    background-color: #f2f2f2;
+    height: 83rem;
+    padding: 0 0;
+}
+
+.page-2-title-h1 {
+  color: #000000;
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 2em;
+  text-align: center;
+  padding: 4rem 0.3em 0 0.3em;
+}
+.orange-page-2 {
+  width: 6rem;
+  height: 0.2rem;
+  background-color: #f26522;
+  margin: 0 auto;
+  margin-top: 4rem;
+}
+.btn-page-2 {
+  padding: 6px 12px;
+  border: 2px solid #b5b5b5;
+  background-color: rgba(0,0,0,0.0);
+  font-size: 1em;
+  width: 17%;
+  margin: 0 auto;
+  color: #000000;
   text-decoration: none;
 }
