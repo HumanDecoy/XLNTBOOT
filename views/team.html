@@ -9,13 +9,17 @@
 	<link href="../navcss.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="../css/team.css">
 	<link rel="stylesheet" type="text/css" href="../main.css">
+	<title>DA TEAM</title>
 </head>
 <body>
 	<!-- NAVBAR -->
-	<aside class="col-lg-2"></aside>
-	<div class="col-lg-8 col-sm-12 col-xs-12 team">
-		<div class="container-fluid">
-			<nav class="navbar navbar-inverse">
+
+	<aside class="col-lg-2" id="hemScroll"></aside>
+	<div class="col-lg-8 col-sm-12 col-xs-12">
+		<div class="container-fluid" id="navXlnt">
+
+			<nav class="navbar navbar-inverse navbar-fixed-top col-lg-8 col-sm-12 col-xs-12 centernav">
+
 				<div class="navbar-header">
 					<button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".js-navbar-collapse">
 						<span class="sr-only">Toggle navigation</span>
@@ -23,80 +27,84 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand" href="#">My Store</a>
+					<a href="index.html">  <img id="logoMenu" src="../img/xlnt-logo-official-new.png"></a>
 				</div>
 
 				<div class="collapse navbar-collapse js-navbar-collapse">
-					<li class="liBoot">1</li>
-					<li class="liBoot">2</li>
-					<li class="liBoot">3</li>
-					<li class="liBoot">4</li>
-					<li class="liBoot">5</li>
+					<li class="liBoot"><a href="../index.html#hemScroll">Hem</a></li>
+					<li class="liBoot"><a href="../index.html#responsivScroll">Responsiv design</a></li>
+					<li class="liBoot"><a href="../index.html#tidigareScroll">Tidigare projekt</a></li>
+					<li class="liBoot"><a href="../index.html#teamScroll">Vårat team</a></li>
+					<li class="liBoot"><a href="../index.html#kontaktScroll">Kontakta oss</a></li>
 					<ul class="dropdown-menu mega-dropdown-menu">		
 					</div><!-- /.nav-collapse -->
-				</nav>
-			</div>
-			<section class="container-fluid">
-				<!-- SLIDER START -->
-				<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-					<!-- Indicators -->
-					<ol class="carousel-indicators">
-						<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-						<li data-target="#carousel-example-generic" data-slide-to="1"></li>
-						<li data-target="#carousel-example-generic" data-slide-to="2"></li>
-						<li data-target="#carousel-example-generic" data-slide-to="3"></li>
-					</ol>
+				</div> <!--container-fluid -->
 
-					<!-- Wrapper for slides -->
-					<div class="carousel-inner" role="listbox">
-						<div class="item active">
-							<img src="../img/eddie.png" alt="...E">
-							<div class="carousel-caption">
-								<h3>.E.</h3>
-								<p>...</p>
-							</div>
-						</div>
-						<div class="item">
-							<img src="../img/emil.png" alt="...">
-							<div class="carousel-caption">
-								<h3>...</h3>
-								<p>...</p>
-							</div>
-						</div>
-						<div class="item">
-							<img src="../img/martin.png" alt="...">
-							<div class="carousel-caption">
-								<h3>...</h3>
-								<p>...</p>
-							</div>
-						</div>
-						<div class="item">
-							<img src="../img/oscar.png" alt="...">
-							<div class="carousel-caption">
-								<h3>...</h3>
-								<p>...</p>
-							</div>
-						</div>
-						...
-					</div>
+<div class="page-2">
+	
 
-					<!-- Controls -->
-					<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-						<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-						<span class="sr-only">Previous</span>
-					</a>
-					<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-						<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-						<span class="sr-only">Next</span>
-					</a>
-				</div>
+				<div class="container-fluid">
+						<!-- SLIDER START -->
+			<div class="bs-example">
+    <div id="carousel-example-captions" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-example-captions" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-captions" data-slide-to="1" class=""></li>
+        <li data-target="#carousel-example-captions" data-slide-to="2" class=""></li>
+        <li data-target="#carousel-example-captions" data-slide-to="3" class=""></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="item active">
+          <img data-src="holder.js/900x500/auto/#777:#777" alt="900x500" src="../img/eddie.png">
+          <div class="carousel-caption">
+            <h3>First slide label</h3>
+            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          </div>
+        </div>
+        <div class="item">
+          <img data-src="holder.js/900x500/auto/#666:#666" alt="900x500" src="../img/martin.png">
+          <div class="carousel-caption">
+            <h3>Second slide label</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+        <div class="item">
+          <img data-src="holder.js/900x500/auto/#555:#5555" alt="900x500" src="../img/emil.png">
+          <div class="carousel-caption">
+            <h3>Third slide label</h3>
+            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+          </div>
+        </div>
+        <div class="item">
+          <img data-src="holder.js/900x500/auto/#555:#5555" alt="900x500" src="../img/oscar.png">
+          <div class="carousel-caption">
+            <h3>Fourth slide label</h3>
+            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#carousel-example-captions" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+      </a>
+      <a class="right carousel-control" href="#carousel-example-captions" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+      </a>
+    </div>
+  </div>
+<div class="new-caption-area"></div>
 				<!-- SLIDER END -->
-			</section>
-		</div>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-		<script src="../bootstrap-3.3.7-dist/js/bootstrap.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-		<script src="../navjs.js"></script>
+</div>
+					<!-- FOOTER-->
+				</div> <!--container-fluid -->
+
+
+
+			</div> <!-- class="col-lg-8 col-sm-12 col-xs-12 -->
+			<aside class="col-lg-2"></aside> 
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+			<script src="../bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+			<script src="../navjs.js"></script>
 		</body>
 
 	</body>
