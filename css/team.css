@@ -1,7 +1,12 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
 
 
 
-.bs-example, .new-caption-area {
+/*.bs-example, .new-caption-area {
     width: 600px;
     margin: auto;
     color: #000;
@@ -10,7 +15,5 @@
   .carousel-caption {
   color: #000;
 }
+*/
 
-.centershit {
-	text-align: center;
-}
