@@ -10,8 +10,13 @@ $('a[href*="#"]:not([href="#"])').click(function() {
       $('html, body').animate({
         scrollTop: target.offset().top
       }, 1000);
+      if (target.length==13){
+        return false;
+      }
+      else{
       menuClick[0].click();
       return false;
+    }
     }
   }
 });
