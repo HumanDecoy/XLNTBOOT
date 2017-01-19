@@ -195,3 +195,13 @@ font-family: "Roboto";
 font-weight: 300;
 float:right;
 }
+footer{
+  background-color: #e71d36;
+  padding: 2rem;
+}
+footer h2, p{
+  margin-top: 0px;
+  color: white;
+  font-family: "Roboto";
+  font-weight: 300;
+}
