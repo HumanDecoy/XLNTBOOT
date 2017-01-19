@@ -1,13 +1,5 @@
-* {
-	box-sizing: border-box;
-	padding: 0;
-	margin: 0;
-}
 
-.team {
-  background-color: teal;
-  height: 83rem;
-}
+
 
 .bs-example, .new-caption-area {
     width: 600px;
@@ -17,4 +9,8 @@
   
   .carousel-caption {
   color: #000;
+}
+
+.centershit {
+	text-align: center;
 }
