@@ -15,6 +15,16 @@ body{
   border: 3px red solid;
 }
 
+.container {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
 #containercolor{
 	background-color: #f2f2f2;
 }
