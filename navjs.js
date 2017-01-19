@@ -2,7 +2,7 @@
 var menuClick = document.getElementsByClassName("navbar-toggle");
 var btnNo= document.getElementById("noScrollbtn");
 // Scroll Funktionen // 
-
+//-- Scrollhack, ser till att menyn inte stänger/öppnar sig //
 btnNo.addEventListener("click", addClass);
 
 function addClass(){
