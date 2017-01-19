@@ -134,12 +134,20 @@ body{
 
 /*PAGE-3*/
 
+.page-3{
+  background-color: #f2f2f2;
+}
+
 .projectImg {
   width: 100%;
 }
 
 
 /*PAGE-4*/
+
+.page-4{
+  background-color: #fafafa;
+}
 
 .teamPic {
   width: 100%;
