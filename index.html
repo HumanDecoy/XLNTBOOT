@@ -60,7 +60,7 @@
         </div>
         <div class="row">
           <div class="col-lg-3 col-sm-3 col-xs-4 btn-group-justified">
-            <a href="#kontaktScroll" class="btn-page-1 btn-group-justified">Kontakta oss</a>
+            <a href="#kontaktDirekt" id="noScrollbtn" class="btn-page-1 btn-group-justified">Kontakta oss</a>
           </div>
         </div>
       </div>
@@ -82,7 +82,7 @@
         </div>
         <div class="row">
           <div class="col-lg-8 col-lg-offset-2 col-sm-12 col-xs-12">
-            <img src="img/responsive-web-design.png" alt="phone-tablet-laptop-desktop">
+            <img class="responsiveImg img-responsive" src="img/responsive-web-design.png" alt="phone-tablet-laptop-desktop">
           </div>
         </div>
         <div class="row">
@@ -118,7 +118,7 @@
         </div>
         <div class="row">
           <div class="col-lg-8 col-lg-offset-2 col-sm-12 col-xs-12">
-            <img class= "projectImg" src="img/webDevelopment.png" alt="html5-css-JS-laptop">
+            <img class= "projectImg img-responsive" src="img/webDevelopment.png" alt="html5-css-JS-laptop">
           </div>
         </div>
         <div class="row">
@@ -146,11 +146,12 @@
     <div class="p-div">
       <div class="row">
         <div class="col-lg-8 col-lg-offset-2 col-sm-12 col-xs-12">
+          <div class="orange-line"></div>
          <p class="page-p-black">
           År 2016 så började vi vår resa tillsammans på Nackademin i Stockholm och vi bestämde oss för att starta en egen webbyrå.
           Vill du lära känna oss bättre så kan du trycka här.
         </p>
-        <img class="teamPic" src="img/teamjpg.jpg" alt="team">
+        <img class="teamPic img-responsive" src="img/teamjpg.jpg" alt="team">
       </div>
     </div>
   </div>
@@ -164,10 +165,10 @@
 
 <!-- PAGE-5 -->
 <section id="kontaktScroll">
-  <div class="page-5">
+  <div class="page-5" id="kontaktDirekt">
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2 col-sm-12 col-xs-12">
-       <h1 class="page-5-title-h1">Kontakta oss</h1>
+       <h1 class="page-h1-black">Kontakta oss</h1>
      </div>
    </div>
    <div class="row">
@@ -197,6 +198,7 @@
       <label for="comment">Comment:</label>
       <textarea class="form-control" rows="5" id="comment"></textarea>
    </div>
+      <button type="submit" class="btn btn-default">Submit</button>
   </form>
   
 </div> <!-- page-5 -->

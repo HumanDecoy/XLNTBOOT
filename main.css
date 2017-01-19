@@ -62,7 +62,6 @@ body{
   font-size: 2em;
   text-align: center;
   margin-top: 7rem;
-  padding: 0 0.3em 0 0.3em;
 }
 .orange-line {
   width: 6rem;
@@ -99,12 +98,6 @@ body{
   text-align: center;
 }
 
-.page-2 img {
-  width: 100%;
-  margin: 2rem 0 0 0;
-  padding: 0 2em;
-}
-
 
 .btn-page-2 {
   padding: 6px 12px;
@@ -132,7 +125,22 @@ body{
 }
 
 .projectImg {
-  width: 100%;
+width: 100%;
+max-width: 670px;
+max-height: 480px;
+margin: 0 auto;
+left: 50%;
+}
+.img-responsive{
+  margin: 0 auto;
+}
+
+.responsiveImg{
+width: 100%;
+max-width: 544px;
+max-height: 273px;
+margin: 0 auto;
+left: 50%;
 }
 
 
@@ -145,8 +153,11 @@ body{
 }
 
 .teamPic {
-  margin-top: 2rem;
   width: 100%;
+  max-width: 600px;
+  max-height: 286px;
+  margin: 2rem auto;
+  left: 50%;
 }
 
 
