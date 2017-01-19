@@ -134,6 +134,12 @@ body{
 
 /*PAGE-3*/
 
+.page-3{
+  background-color: #f2f2f2;
+  height: 83rem;
+  padding: 0 0;
+}
+
 .projectImg {
   width: 100%;
 }
@@ -141,7 +147,24 @@ body{
 
 /*PAGE-4*/
 
+.page-4{
+  background-color: #fafafa;
+  height: 83rem;
+  padding: 0 0;
+}
+
 .teamPic {
   width: 100%;
 }
 
+
+
+/*PAGE-5*/
+.page-5{
+  background-color: #f2f2f2;
+  height: 83rem;
+  padding: 0 0;
+}
+form{
+  margin-top: 2rem;
+}
