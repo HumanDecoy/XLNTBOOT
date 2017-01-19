@@ -124,5 +124,11 @@ body{
   margin: 2rem auto;
   color: #000;
   text-decoration: none;
+  text-align: center;
+}
+
+.btn-black {
+  color:black !important;
+  text-decoration: none;
 }
 
