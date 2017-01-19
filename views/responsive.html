@@ -6,16 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Boot</title>
     <link rel="stylesheet" type="text/css" href="../css/responsive.css">
-    <link href="bootstrap-3.3.7-dist/css/bootstrap.css" rel="stylesheet">
+    <link href="../bootstrap-3.3.7-dist/css/bootstrap.css" rel="stylesheet">
+    <link href="../navcss.css" rel="stylesheet">
 	  <link rel="icon" href="../img/xlnthead.png">
   </head>
 
   <body>
     <aside class="col-lg-2"></aside> 
-    <div id="containercolor">
-    <div class="container">
-      <div class="row">
-       <div class="col-lg-8 col-sm-12 col-xs-12">
+    <div class="container col-lg-8 col-sm-12 col-xs-12">
+
+          <div class="container-fluid" id="navXlnt">
+
+      <nav class="navbar navbar-inverse navbar-fixed-top col-lg-8 col-sm-12 col-xs-12 centernav">
+
+        <div class="navbar-header">
+         <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".js-navbar-collapse">
+           <span class="sr-only">Toggle navigation</span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+         </button>
+         <img id="logoMenu" src="img/xlnt-logo-official-new.png">
+       </div>
+
+       <div class="collapse navbar-collapse js-navbar-collapse">
+        <li class="liBoot"><a href="#hemScroll">Hem</a></li>
+        <li class="liBoot"><a href="#responsivScroll">Responsiv design</a></li>
+        <li class="liBoot"><a href="#tidigareScroll">Tidigare projekt</a></li>
+        <li class="liBoot"><a href="#teamScroll">Vårat team</a></li>
+        <li class="liBoot"><a href="#kontaktScroll">Kontakta oss</a></li>
+        <ul class="dropdown-menu mega-dropdown-menu">		
+        </div><!-- /.nav-collapse -->
+      </div>
+      
         <h1 class="responsive-h1">Responsiv design!</h1>
           <div class="responsive-div"></div>
             <p class="responsive-p">Vi på XLNT Media vet hur viktigt det är att kunna komma åt information över allt, hur som helst med vad som helst.
@@ -24,21 +47,11 @@
                 <img src="../img/content-water-final.png" class="img-responsive" alt="content-water-final">
               </div>
             </div>
-          </div>
         </div>
-        
-    <footer class="container">
-      <h2 class="responsive-h2">Adress</h2>
-      <p>Sjumilaskogen 7</p>
-      <p>1337 - Stockholm</p>
-      <h2 class="responsive-h2">Följ oss</h2>
-      <a href="#"><i class="fa fa-facebook-square icon-size" aria-hidden="true"></i></a>
-		  <a href="#"><i class="fa fa-twitter-square icon-size" aria-hidden="true"></i></a>
-		  <a href="#"><i class="fa fa-linkedin icon-size"></i></a>
-    </footer>
-    </div>
-    <aside class="col-lg-2"></aside> 
+
+    <aside class="col-lg-2"></aside>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <script src="../bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+    <script src="../navjs.js"></script>
   </body>
 </html>

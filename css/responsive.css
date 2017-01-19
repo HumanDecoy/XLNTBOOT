@@ -7,22 +7,22 @@
 .col-lg-8, .col-sm-12, .col-xs-12{
 	padding-left: 0px;
 	padding-right: 0px;
-    text-align: center;
 }
 .row {
-    padding: 35px 0;
     text-align: center;
+    padding: 35px 0;
+    margin: 0 auto;
 }
-body{
+body, html{
     background-color: #2b2d42;
 }
-#containercolor{
+.container{
 	background-color: #fafafa;
 }
 .responsive-div {
     width: 6rem;
     height: 0.2rem;
-    margin: 2rem 0 2rem 0;
+    margin: 0 auto;
     background-color: #f26522;
 }
 .responsive-p{  
@@ -49,7 +49,7 @@ body{
     margin: 1rem 0 0 2rem;
 }
 .row img{
-    margin: 2rem 0 0 0;
+    margin: 0 auto;
     width: 80%;  
 }
 footer {
