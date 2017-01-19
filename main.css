@@ -98,12 +98,6 @@ body{
   text-align: center;
 }
 
-.page-2 img {
-  width: 100%;
-  margin: 2rem 0 0 0;
-  padding: 0 2em;
-}
-
 
 .btn-page-2 {
   padding: 6px 12px;
@@ -141,6 +135,14 @@ left: 50%;
   margin: 0 auto;
 }
 
+.responsiveImg{
+width: 100%;
+max-width: 544px;
+max-height: 273px;
+margin: 0 auto;
+left: 50%;
+}
+
 
 /*PAGE-4*/
 
@@ -151,8 +153,11 @@ left: 50%;
 }
 
 .teamPic {
-  margin-top: 2rem;
   width: 100%;
+  max-width: 600px;
+  max-height: 286px;
+  margin: 2rem auto;
+  left: 50%;
 }
 
 
