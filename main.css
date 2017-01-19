@@ -62,7 +62,6 @@ body{
   font-size: 2em;
   text-align: center;
   margin-top: 7rem;
-  padding: 0 0.3em 0 0.3em;
 }
 .orange-line {
   width: 6rem;
@@ -132,7 +131,14 @@ body{
 }
 
 .projectImg {
-  width: 100%;
+width: 100%;
+max-width: 670px;
+max-height: 480px;
+margin: 0 auto;
+left: 50%;
+}
+.img-responsive{
+  margin: 0 auto;
 }
 
 
