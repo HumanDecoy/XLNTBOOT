@@ -72,5 +72,10 @@
 }
 
 .progIcons{
-  height: 6rem;
+  height: 5rem;
 }
+
+.txtStyle {
+	padding: 0 10rem 0 0;
+}
+
