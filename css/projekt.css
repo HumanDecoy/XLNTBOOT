@@ -48,3 +48,7 @@ width:11rem;
 .h1-padding{
     padding-top: 0px;
 }
+figure{
+    padding-top: 0;
+    padding-bottom: 6rem;
+}
