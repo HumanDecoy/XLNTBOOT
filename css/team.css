@@ -6,7 +6,7 @@
 
 .teampage {
 	background-color: #ffffff;
-  	height: 100rem;
+  	height: 110rem;
   	padding: 0 0;
 }
 
@@ -66,3 +66,16 @@
 .activeTeam, .dot:hover {
   background-color: #717171;
 }
+
+.textList {
+	list-style:  none;
+}
+
+.progIcons{
+  height: 5rem;
+}
+
+.txtStyle {
+	padding: 0 10rem 0 0;
+}
+

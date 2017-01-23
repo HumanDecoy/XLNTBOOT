@@ -69,7 +69,6 @@
     
     .navbar-collapse {
         border-top: 1px solid transparent;
-        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
     }
     .navbar-fixed-top {
         top: 0;
@@ -127,6 +126,7 @@
 .navbar-toggle .icon-bar{
   height:5px;
   width:45px;
+  border-radius: 9px;
 }
 .navbar-toggle .icon-bar + .icon-bar {
   margin-top:7px;
@@ -150,4 +150,6 @@ a:active {
   color:white;
    text-decoration: none;
 }  
-
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
+  border-color: transparent;
+}
