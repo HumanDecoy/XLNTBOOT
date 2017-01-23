@@ -12,6 +12,8 @@
     padding-top: 0;
     padding: 2rem 0;
     margin: 0 auto;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
 }
 body, html{
     background-color: #2b2d42;
@@ -42,4 +44,7 @@ body, html{
 }
 .btn-projekt{
 width:11rem;
+}
+.h1-padding{
+    padding-top: 0px;
 }
