@@ -153,3 +153,6 @@ a:active {
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
   border-color: transparent;
 }
+button:hover{
+  border-color: transparent;
+}
