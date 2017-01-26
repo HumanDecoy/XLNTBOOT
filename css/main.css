@@ -213,3 +213,6 @@ form {
 }
 /*# sourceMappingURL=main.css.map */
 
+button, a {
+  cursor: pointer;
+}
