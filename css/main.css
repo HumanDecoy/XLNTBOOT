@@ -104,7 +104,7 @@ body {
   border: 2px solid #b5b5b5;
   background-color: transparent;
   font-size: 1em;
-  width: 12rem !important;
+  width: 11rem;
   margin: 2rem auto;
   color: #000;
   text-decoration: none;
@@ -195,6 +195,7 @@ form {
   text-align: center;
   padding: 0 1.5rem 0 1.5rem;
 }
+
 .form-control {
   max-width: 100%;
   max-height: 200px;
@@ -211,4 +212,10 @@ form {
   font-weight: 300;
   float: right;
 }
+
+
+button, a {
+  cursor: pointer;
+}
+
 /*# sourceMappingURL=main.css.map */

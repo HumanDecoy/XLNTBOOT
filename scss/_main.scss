@@ -29,6 +29,10 @@
 	width: 100%;
 }
 
+@mixin links() {
+	cursor: pointer;
+}
+
 * {
 	box-sizing: border-box;
 	padding: 0;
@@ -221,3 +225,8 @@ form{
 	@include Robo-font;
 	float:right;
 }
+
+button, a {
+	@include links;
+}
+
